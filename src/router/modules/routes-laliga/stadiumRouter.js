@@ -13,8 +13,8 @@ const stadiumRouter = {
   },
   children: [
     {
-      path: 'tinymce',
-      component: () => import('@/views/components-demo/tinymce'),
+      path: 'configStadium',
+      component: () => import('@/components-laLiga/stadium/configStadium'),
       name: 'Configuración de Estadios',
       meta: { title: 'Configuración de Estadios' }
     },
@@ -23,7 +23,7 @@ const stadiumRouter = {
       component: () => import('@/views/components-demo/markdown'),
       name: 'Categorías Estadios',
       meta: { title: 'Categorías Estadios' }
-    },
+    }
   ]
 }
 export default stadiumRouter

@@ -13,8 +13,8 @@ const providerRouter = {
   },
   children: [
     {
-      path: 'tinymce',
-      component: () => import('@/views/components-demo/split-pane'),
+      path: 'configProvider',
+      component: () => import('@/components-laLiga/provider/configProvider'),
       name: 'Admin provider',
       meta: { title: 'Admin provider' }
     },

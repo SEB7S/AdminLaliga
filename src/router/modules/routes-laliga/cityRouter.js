@@ -13,8 +13,8 @@ const cityRouter = {
   },
   children: [
     {
-      path: 'tinymce',
-      component: () => import('@/views/components-demo/tinymce'),
+      path: 'configCity',
+      component: () => import('@/components-laLiga/city/configCity'),
       name: 'Configuración de Ciudad',
       meta: { title: 'Configuración de Ciudad' }
     },

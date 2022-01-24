@@ -138,13 +138,14 @@ export const constantRoutes = [
  * the routes that need to be dynamically loaded based on user roles
  */
 export const asyncRoutes = [
+  tourRouter,
+  matchRouter,
   hotelRouter,
   providerRouter,
-  matchRouter,
-  stadiumRouter,
   cityRouter,
-  tourRouter,
-  /**  {
+  stadiumRouter,
+
+  /**     {
     path: '/permission',
     component: Layout,
     redirect: '/permission/page',
@@ -197,7 +198,7 @@ export const asyncRoutes = [
         meta: { title: 'Icons', icon: 'icon', noCache: true }
       }
     ]
-  }, */
+  },  */
 
   /** when your routing map is too long, you can split it into small modules **/
   /**   componentsRouter,
